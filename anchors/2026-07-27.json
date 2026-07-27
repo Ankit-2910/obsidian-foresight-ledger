@@ -1,0 +1,12 @@
+{
+  "ledger": "OBSIDIAN Proof-of-Foresight",
+  "day": "2026-07-27",
+  "prediction_count": 16,
+  "merkle_root": "acb33d68d10e0455956e29bac53f0aa8b7070cb6fc91277383ca27d4ae540e32",
+  "chained_hash": "d354c9f47d522588ee45477c6fb3538655fb0589eb5f6c16d0caccd8a2d42fa3",
+  "previous_chain": "d31cc43bf92f55df31767a5950047be9612e80c2d886bb97f5f91b019068bccb",
+  "retroactive": false,
+  "anchored_at_utc": "2026-07-27T00:55:03.818841+00:00",
+  "verify": "https://obsidian.shivanchal.in/api/ledger",
+  "method": "leaf=sha256(canonical_json(prediction)); root=pairwise sha256 over sorted leaves (odd dup); chain=sha256(prev+day+root+count)"
+}
